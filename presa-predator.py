@@ -28,6 +28,17 @@ def rungekutta2_fg(f,g,t0,x0,y0,h,muestras):
 
 # PROGRAMA ------------------
 
+# Doc Variables
+# x = nro de presas
+# y = nro de depredadores
+# t = tiempo de observacion
+
+# a = razon de crecimiento de la presas
+# c = razon de muerte del depredadores
+# b = efecto de la interacción depredador-presa sobre la muerte de la presa(0.7)
+# d = efecto de la interaccion depresador-presa sobre el crecimiento del
+# depredador (0.35)
+
 # INGRESO
 # Parámetros de las ecuaciones
 a = 0.5
