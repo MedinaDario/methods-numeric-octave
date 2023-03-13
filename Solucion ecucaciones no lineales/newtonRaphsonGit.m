@@ -2,10 +2,10 @@ clc;
 fprintf ("***METODO DE NEWTON RAPSHON***\n");
 
 #tambien se puede utilizar   f  = input("escribe la funcion", "s")
-f = 'x^2 - (2*x)*e^(-x) + e^(-2*x) ';
+f = '3*x + sin(x)-e^(x)';
 f = inline(f);
 
-d = ' 2*x -2*(e^(-x)- x*e^(-x)) - 2*e^(-2*x)';
+d = '3+cos(x)-e^(x)';
 d = inline(d);
 
 maximoIteracion = input("maximo de iteraciones: ")
